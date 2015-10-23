@@ -1,0 +1,25 @@
+{
+	"name": "superbalist/PanaceaApi",
+	"description": "The Panacea Mobile PHP class for easy deployment and integration",
+	"authors": [
+		{
+			"name": "Superbalist.com a division of Takealot Online (Pty) Ltd",
+			"email": "info@superbalist.com"
+		}
+	],
+	"require": {
+		"php": ">=5.2.0",
+		"ext-curl": "*",
+		"ext-reflection": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"PanaceaMobile\\": "src/"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0-dev"
+		}
+	}
+}
