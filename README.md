@@ -7,3 +7,22 @@ This library is a copy of the original php class http://www.panaceamobile.com/do
 written and distributed by Panacea Mobile.
 
 This repo adds support for installation by composer.
+
+
+## Installation
+
+```bash
+composer require superbalist/panaceaapi
+```
+
+
+## Usage
+
+```php
+use PanaceaMobile\PanaceaApi;
+
+$gateway = new PanaceaApi();
+$gateway->setUsername('[username]');
+$gateway->setPassword('[password]');
+$gateway->message_send('[to number]', '[message]', '[from number]');
+```
