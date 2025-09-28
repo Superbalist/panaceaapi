@@ -4,7 +4,7 @@ use ReflectionMethod;
 
 class PanaceaApi {
 
-	var $url = "http://api.panaceamobile.com/json";
+	var $url = "http://eu-api.panaceamobile.com/json";
 
 	var $curl = false;
 
